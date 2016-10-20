@@ -44,7 +44,7 @@ import "./node_modules/build/bee-control-label.css"
 |参数|说明|类型|默认值|
 |:--|:---:|:--:|---:|
 
-#### 开发调试
+### 开发调试
 
 ```sh
 $ git clone https://github.com/tinper-bee/bee-control-label
