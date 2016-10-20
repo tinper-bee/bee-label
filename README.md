@@ -36,6 +36,7 @@ React.render(<div>
 import "./node_modules/src/ControlLabel.scss"
 //或是
 import "./node_modules/build/bee-control-label.css"
+```
 
 
 
