@@ -4,15 +4,38 @@
 [![devDependency Status](https://img.shields.io/david/dev/tinper-bee/bee-control-label.svg)](https://david-dm.org/tinper-bee/bee-control-label#info=devDependencies)
 
 
-react bee-control-label component for tinper-bee
+修饰`FormControl`文字元素
 
-some description...
 
-## 使用方法
-
-```js
+## 使用
+使用单独的bee-control-label包
+#### 组件引入
+先进行下载bee-control-label包
 
 ```
+npm install --save bee-control-label
+```
+组件调用
+```js
+import ControlLabel from 'bee-control-label';
+
+React.render(<div>
+    <div>
+        <Badge color="primary">a</Badge>
+    </div>
+</div>, document.getElementById('target'));
+
+```
+#### 样式引入
+- 可以使用link引入dist目录下bee-control-label.css
+```
+<link rel="stylesheet" href="./node_modules/build/bee-control-label.css">
+```
+- 可以在js中import样式
+```js
+import "./node_modules/src/ControlLabel.scss"
+//或是
+import "./node_modules/build/bee-control-label.css"
 
 
 
