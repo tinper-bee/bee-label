@@ -20,9 +20,8 @@ npm install --save bee-control-label
 import ControlLabel from 'bee-control-label';
 
 React.render(<div>
-    <div>
-        <Badge color="primary">a</Badge>
-    </div>
+        <ControlLabel />
+        <ControlLabel>test</ControlLable>
 </div>, document.getElementById('target'));
 
 ```
