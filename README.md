@@ -1,6 +1,6 @@
 # bee-control-label
 [![npm version](https://img.shields.io/npm/v/bee-control-label.svg)](https://www.npmjs.com/package/bee-control-label)
-[![Build Status](https://img.shields.io/travis/tinper-bee/generator-tinper-bee/master.svg)](https://travis-ci.org/tinper-bee/bee-control-label)
+[![Build Status](https://img.shields.io/travis/tinper-bee/bee-control-label/master.svg)](https://travis-ci.org/tinper-bee/bee-control-label)
 [![devDependency Status](https://img.shields.io/david/dev/tinper-bee/bee-control-label.svg)](https://david-dm.org/tinper-bee/bee-control-label#info=devDependencies)
 
 
