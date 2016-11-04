@@ -11,4 +11,5 @@ function demo1() {
     );
 }
 
+
 ReactDOM.render(demo1(), document.getElementById('ReactControlLabelDemo1'));
