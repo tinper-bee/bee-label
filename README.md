@@ -2,7 +2,6 @@
 [![npm version](https://img.shields.io/npm/v/bee-control-label.svg)](https://www.npmjs.com/package/bee-control-label)
 [![Build Status](https://img.shields.io/travis/tinper-bee/bee-control-label/master.svg)](https://travis-ci.org/tinper-bee/bee-control-label)
 [![Coverage Status](https://coveralls.io/repos/github/tinper-bee/bee-control-label/badge.svg?branch=master)](https://coveralls.io/github/tinper-bee/bee-control-label?branch=master)
-[![devDependency Status](https://img.shields.io/david/dev/tinper-bee/bee-control-label.svg)](https://david-dm.org/tinper-bee/bee-control-label#info=devDependencies)
 
 
 修饰`FormControl`文字元素
