@@ -1,25 +1,28 @@
 import React, { Component,PropTypes } from 'react';
 import ReactDOM from 'react-dom';
-import classNames from 'classnames';
+import classnames from 'classnames';
 
+const defaultProps = {
+   clsPrefix: 'u-control-label'
+}
 class ControlLabel extends Component {
   render() {
 
-    const {className,children, ...others } = this.props;
+    const {className,children,clsPrefix, ...others } = this.props;
 
+    let classes = {};
 
-    let classes={
-    	'control-label': true
-    };
+    let classNames = classnames(clsPrefix,classes);
 
     return (
       <label
         {...others}
-        className={classNames(className, classes)}
+        className={classNames}
       >{children}</label>
     );
   }
 }
 
+ControlLabel.defaultProps = defaultProps;
 
 export default ControlLabel;

@@ -30,6 +30,10 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : _defaults(subClass, superClass); }
 
+var defaultProps = {
+  clsPrefix: 'u-control-label'
+};
+
 var ControlLabel = function (_Component) {
   _inherits(ControlLabel, _Component);
 
@@ -43,17 +47,18 @@ var ControlLabel = function (_Component) {
     var _props = this.props;
     var className = _props.className;
     var children = _props.children;
+    var clsPrefix = _props.clsPrefix;
 
-    var others = _objectWithoutProperties(_props, ['className', 'children']);
+    var others = _objectWithoutProperties(_props, ['className', 'children', 'clsPrefix']);
 
-    var classes = {
-      'control-label': true
-    };
+    var classes = {};
+
+    var classNames = (0, _classnames2["default"])(clsPrefix, classes);
 
     return _react2["default"].createElement(
       'label',
       _extends({}, others, {
-        className: (0, _classnames2["default"])(className, classes)
+        className: classNames
       }),
       children
     );
@@ -61,6 +66,8 @@ var ControlLabel = function (_Component) {
 
   return ControlLabel;
 }(_react.Component);
+
+ControlLabel.defaultProps = defaultProps;
 
 exports["default"] = ControlLabel;
 module.exports = exports['default'];

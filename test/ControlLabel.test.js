@@ -6,6 +6,6 @@ import ControlLabel from '../src/index';
 describe('Enzyme Shallow', function() {
 	it('ControlLable should be exist', function() {
 		let controlLabel = shallow(<ControlLabel/>);
-		expect(controlLabel.hasClass('control-label')).to.equal(true);
+		expect(controlLabel.hasClass('u-control-label')).to.equal(true);
 	})
 })
