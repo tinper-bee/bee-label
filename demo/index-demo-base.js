@@ -12,18 +12,7 @@ const CARET = <i className="uf uf-chevronarrowdown"></i>;
 const CARETUP = <i className="uf uf-chevronarrowup"></i>;
 
 
-/**
- * 
- * 
- */
-class Demo1 extends Component {
-	render () {
-		return (
-			<ControlLabel>control label</ControlLabel> 
-		)
-	}
-}var DemoArray = [{"example":<Demo1 />,"title":"Demo1","code":"/**\n * \n * \n */\nclass Demo1 extends Component {\n\trender () {\n\t\treturn (\n\t\t\t<ControlLabel>control label</ControlLabel> \n\t\t)\n\t}\n}","desc":""}]
-
+{demolist}
 
 class Demo extends Component {
     constructor(props){
