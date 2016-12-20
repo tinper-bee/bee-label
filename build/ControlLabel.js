@@ -44,12 +44,11 @@ var ControlLabel = function (_Component) {
   }
 
   ControlLabel.prototype.render = function render() {
-    var _props = this.props;
-    var className = _props.className;
-    var children = _props.children;
-    var clsPrefix = _props.clsPrefix;
-
-    var others = _objectWithoutProperties(_props, ['className', 'children', 'clsPrefix']);
+    var _props = this.props,
+        className = _props.className,
+        children = _props.children,
+        clsPrefix = _props.clsPrefix,
+        others = _objectWithoutProperties(_props, ['className', 'children', 'clsPrefix']);
 
     var classes = {};
 
