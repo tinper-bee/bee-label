@@ -1,2 +1,2 @@
-import ControlLabel from './ControlLabel';
-export default ControlLabel ;
+import Label from './Label';
+export default Label ;

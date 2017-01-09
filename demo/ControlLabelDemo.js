@@ -1,15 +1,15 @@
-import ControlLabel from '../src';
+import Label from '../src';
 import React, { Component } from 'react'
 
 class Demo extends Component {
 	render(){
 		return(
 			<div>
-	 			<ControlLabel/> 
+	 			<Label/> 
 	 			<br/><br/>
-	 			<ControlLabel> 
+	 			<Label> 
 	 				label
-	 			</ControlLabel>
+	 			</Label>
 	 		</div>
  		)
 	}

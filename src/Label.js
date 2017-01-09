@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import classnames from 'classnames';
 
 const defaultProps = {
-   clsPrefix: 'u-control-label'
+   clsPrefix: 'u-label'
 }
-class ControlLabel extends Component {
+class Label extends Component {
   render() {
 
     const {className,children,clsPrefix, ...others } = this.props;
@@ -23,6 +23,6 @@ class ControlLabel extends Component {
   }
 }
 
-ControlLabel.defaultProps = defaultProps;
+Label.defaultProps = defaultProps;
 
-export default ControlLabel;
+export default Label;

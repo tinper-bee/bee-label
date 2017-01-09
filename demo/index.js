@@ -4,12 +4,12 @@ import { Panel } from 'bee-panel';
 import Button from 'bee-button';
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import ControlLabel from '../src';
+import Label from '../src';
 
 
-const CARET = <i className="uf uf-chevronarrowdown"></i>;
+const CARET = <i className="uf uf-arrow-down"></i>;
 
-const CARETUP = <i className="uf uf-chevronarrowup"></i>;
+const CARETUP = <i className="uf uf-arrow-up"></i>;
 
 
 /**
@@ -19,10 +19,10 @@ const CARETUP = <i className="uf uf-chevronarrowup"></i>;
 class Demo1 extends Component {
 	render () {
 		return (
-			<ControlLabel>control label</ControlLabel> 
+			<Label>control label</Label> 
 		)
 	}
-}var DemoArray = [{"example":<Demo1 />,"title":"Demo1","code":"/**\n * \n * \n */\nclass Demo1 extends Component {\n\trender () {\n\t\treturn (\n\t\t\t<ControlLabel>control label</ControlLabel> \n\t\t)\n\t}\n}","desc":""}]
+}var DemoArray = [{"example":<Demo1 />,"title":"Demo1","code":"/**\n * \n * \n */\nclass Demo1 extends Component {\n\trender () {\n\t\treturn (\n\t\t\t<Label>control label</Label> \n\t\t)\n\t}\n}","desc":""}]
 
 
 class Demo extends Component {

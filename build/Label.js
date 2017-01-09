@@ -31,19 +31,19 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : _defaults(subClass, superClass); }
 
 var defaultProps = {
-  clsPrefix: 'u-control-label'
+  clsPrefix: 'u-label'
 };
 
-var ControlLabel = function (_Component) {
-  _inherits(ControlLabel, _Component);
+var Label = function (_Component) {
+  _inherits(Label, _Component);
 
-  function ControlLabel() {
-    _classCallCheck(this, ControlLabel);
+  function Label() {
+    _classCallCheck(this, Label);
 
     return _possibleConstructorReturn(this, _Component.apply(this, arguments));
   }
 
-  ControlLabel.prototype.render = function render() {
+  Label.prototype.render = function render() {
     var _props = this.props,
         className = _props.className,
         children = _props.children,
@@ -63,10 +63,10 @@ var ControlLabel = function (_Component) {
     );
   };
 
-  return ControlLabel;
+  return Label;
 }(_react.Component);
 
-ControlLabel.defaultProps = defaultProps;
+Label.defaultProps = defaultProps;
 
-exports["default"] = ControlLabel;
+exports["default"] = Label;
 module.exports = exports['default'];
