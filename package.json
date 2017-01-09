@@ -1,6 +1,6 @@
 {
   "name": "bee-label",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "description": "control-label ui component for react",
   "keywords": [
     "react",
@@ -39,9 +39,9 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "enzyme": "^2.4.1",
-    "react": "~0.14.0",
+    "react": "15.3.2",
     "react-addons-test-utils": "15.3.2",
-    "react-dom": "~0.14.0",
+    "react-dom": "15.3.2",
     "console-polyfill": "~0.2.1",
     "es5-shim": "~4.1.10",
     "bee-panel": "latest",
