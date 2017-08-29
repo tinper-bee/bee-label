@@ -12,17 +12,7 @@ const CARET = <i className="uf uf-arrow-down"></i>;
 const CARETUP = <i className="uf uf-arrow-up"></i>;
 
 
-/**
- * 
- * 
- */
-class Demo1 extends Component {
-	render () {
-		return (
-			<Label>control label</Label> 
-		)
-	}
-}var DemoArray = [{"example":<Demo1 />,"title":"Demo1","code":"/**\n * \n * \n */\nclass Demo1 extends Component {\n\trender () {\n\t\treturn (\n\t\t\t<Label>control label</Label> \n\t\t)\n\t}\n}","desc":""}]
+var Demo1 = require("./demolist/Demo1");var DemoArray = [{"example":<Demo1 />,"title":"Demo1","code":"/**\n * \n * \n */\n\nimport React, { Component } from 'react';\nimport Label from 'tinper-bee';\n\n\trender () {\n\t\treturn (\n\t\t\t<Label>control label</Label> \n\t\t)\n\t}\n}","desc":""}]
 
 
 class Demo extends Component {
