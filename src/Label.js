@@ -10,9 +10,8 @@ class Label extends Component {
 
     const {className,children,clsPrefix, ...others } = this.props;
 
-    let classes = {};
 
-    let classNames = classnames(clsPrefix,classes);
+    let classNames = classnames(clsPrefix,className);
 
     return (
       <label

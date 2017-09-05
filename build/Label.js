@@ -50,9 +50,7 @@ var Label = function (_Component) {
         clsPrefix = _props.clsPrefix,
         others = _objectWithoutProperties(_props, ['className', 'children', 'clsPrefix']);
 
-    var classes = {};
-
-    var classNames = (0, _classnames2["default"])(clsPrefix, classes);
+    var classNames = (0, _classnames2["default"])(clsPrefix, className);
 
     return _react2["default"].createElement(
       'label',
