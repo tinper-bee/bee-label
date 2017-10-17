@@ -1,6 +1,7 @@
-import React, { Component,PropTypes } from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import classnames from 'classnames';
+import PropTypes from 'prop-types';
 
 const defaultProps = {
    clsPrefix: 'u-label'

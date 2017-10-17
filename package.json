@@ -36,6 +36,11 @@
     "classnames": "^2.2.5",
     "tinper-bee-core": "latest"
   },
+ "peerDependencies": {
+    "react": "^15.3.0 || ^16.0",
+    "react-dom": "^15.3.0 || ^16.0",
+    "prop-types": "15.6.0"
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "enzyme": "^2.4.1",

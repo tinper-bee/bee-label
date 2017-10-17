@@ -1,23 +1,26 @@
-# bee-control-label
-[![npm version](https://img.shields.io/npm/v/bee-control-label.svg)](https://www.npmjs.com/package/bee-control-label)
-[![Build Status](https://img.shields.io/travis/tinper-bee/bee-control-label/master.svg)](https://travis-ci.org/tinper-bee/bee-control-label)
-[![Coverage Status](https://coveralls.io/repos/github/tinper-bee/bee-control-label/badge.svg?branch=master)](https://coveralls.io/github/tinper-bee/bee-control-label?branch=master)
+# bee-label
+
+bee-control-label 更名为 bee-label
+
+[![npm version](https://img.shields.io/npm/v/bee-label.svg)](https://www.npmjs.com/package/bee-label)
+[![Build Status](https://img.shields.io/travis/tinper-bee/bee-label/master.svg)](https://travis-ci.org/tinper-bee/bee-label)
+[![Coverage Status](https://coveralls.io/repos/github/tinper-bee/bee-label/badge.svg?branch=master)](https://coveralls.io/github/tinper-bee/bee-label?branch=master)
 
 
 修饰`FormControl`文字元素
 
 
 ## 使用
-使用单独的bee-control-label包
+使用单独的bee-label包
 #### 组件引入
-先进行下载bee-control-label包
+先进行下载bee-label包
 
 ```
-npm install --save bee-control-label
+npm install --save bee-label
 ```
 组件调用
 ```js
-import ControlLabel from 'bee-control-label';
+import ControlLabel from 'bee-label';
 
 React.render(<div>
         <ControlLabel />
@@ -26,15 +29,15 @@ React.render(<div>
 
 ```
 #### 样式引入
-- 可以使用link引入dist目录下bee-control-label.css
+- 可以使用link引入dist目录下bee-label.css
 ```
-<link rel="stylesheet" href="./node_modules/build/bee-control-label.css">
+<link rel="stylesheet" href="./node_modules/build/bee-label.css">
 ```
 - 可以在js中import样式
 ```js
 import "./node_modules/src/ControlLabel.scss"
 //或是
-import "./node_modules/build/bee-control-label.css"
+import "./node_modules/build/bee-label.css"
 ```
 
 
@@ -47,8 +50,8 @@ import "./node_modules/build/bee-control-label.css"
 ### 开发调试
 
 ```sh
-$ git clone https://github.com/tinper-bee/bee-control-label
-$ cd bee-control-label
+$ git clone https://github.com/tinper-bee/bee-label
+$ cd bee-label
 $ npm install
 $ npm run dev
 ```
